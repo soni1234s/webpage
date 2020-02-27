@@ -1,0 +1,84 @@
+@keyframes bounce{
+	0%{
+		opacity=0;
+		transform:translateY(-200%);
+	}
+	40%{
+		transform:translateY(0%);
+	}
+	60%{
+		transform:translateY(-6px);
+	}
+	100%{
+		opacity=1;
+		transform:translateY(0);
+	}
+}
+
+.name{
+animation-name:bounce;
+	animation-duration:1s;
+}
+.name1{
+	animation-name:bounce;
+	animation-duration:1.5s;
+}
+.name2{
+	animation-name:bounce;
+	animation-duration:2s;
+}
+.name3{
+	animation-name:bounce;
+	animation-duration:2.5s;
+}
+
+
+
+
+
+
+
+
+body{
+background-image:url(..C:/Users/hp/Pictures/Saved Pictures/image.jpg);
+height:1000px;
+background-position:center center;
+}
+.form{
+padding:10px;
+font-size:20px;
+}
+
+input[type="text"],input[type="password"]{
+	display: block;
+	border-radius:15px;
+	margin:6px 4px;
+	padding:12px 20px;
+  box-sizing: border-box;
+
+}
+input[type="submit"]{
+	display: block;
+	border-radius:5px;
+	margin:6px 2px;
+	padding:8px 12px;
+}
+input[type="submit"]:hover{
+	 background-color:grey;
+	 transform:scale(1.5);
+	 transition-duration:1s;
+
+}
+input[type="radio"]{
+	display: block;
+	border-radius:15px;
+	margin:6px 4px;
+	padding:8px 20px;
+  box-sizing: border-box;
+}
+input[type="text"],input[type="password"],input[type="radio"]:hover{
+   box-shadow:0 0 5px 5px rgba(0,0,0,0.2);
+
+}
+
+	
