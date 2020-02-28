@@ -31,14 +31,6 @@ animation-name:bounce;
 	animation-name:bounce;
 	animation-duration:2.5s;
 }
-
-
-
-
-
-
-
-
 body{
 background-image:url(..C:/Users/hp/Pictures/Saved Pictures/image.jpg);
 height:1000px;
@@ -65,7 +57,7 @@ input[type="submit"]{
 }
 input[type="submit"]:hover{
 	 background-color:grey;
-	 transform:scale(1.5);
+	 transform:rotate(360deg) scale(2);
 	 transition-duration:1s;
 
 }
@@ -76,9 +68,18 @@ input[type="radio"]{
 	padding:8px 20px;
   box-sizing: border-box;
 }
-input[type="text"],input[type="password"],input[type="radio"]:hover{
+input[type="text"],input[type="password"]:hover{
    box-shadow:0 0 5px 5px rgba(0,0,0,0.2);
-
+   transform:scale(1.2);
+   transition-duration:1s;
 }
-
+input[type="radio"]:hover{
+	 box-shadow:0 0 5px 5px rgba(0,0,0,0.2);
+   transform:scale(1.5);
+   transition-duration:1s;
+	
+}
+.gs{
+	font-size:25px;
+}
 	
